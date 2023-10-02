@@ -1,5 +1,10 @@
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/). It uses [CalVer](https://calver.org/) as of May 2019.
 
+## [23.10](https://github.com/berkmancenter/lumendatabase/releases/tag/2023.09a) - 2023-10-02
+### Added
+* Installed and configured `Sidekiq` for background jobs.
+* Added a module for clearing front-end caches like `Varnish`.
+
 ## [23.09a](https://github.com/berkmancenter/lumendatabase/releases/tag/2023.09a) - 2023-09-11
 ### Changed
 * Started using Logstash for Elasticsearch indexing.
